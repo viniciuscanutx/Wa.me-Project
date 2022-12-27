@@ -170,7 +170,12 @@ select::-ms-expand {
   background: white;
 }
 
+#recebe::placeholder {
+  color: #547AA5;
+}
+
 .container p {
+  cursor: default;
   position: absolute;
   justify-content: center;
   margin: 100px 68px;
@@ -180,6 +185,7 @@ select::-ms-expand {
 
 .container #p21 {
   position: absolute;
+  cursor: pointer;
   justify-content: center;
   text-decoration: none;
   margin: 170px 0px 0px -83.5px;
@@ -201,5 +207,5 @@ select::-ms-expand {
     font-style: normal;
     font-variant: normal;
     text-transform: none;
-    margin-bottom: -40px;
+    margin-bottom: -32px;
 }
