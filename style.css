@@ -1,0 +1,177 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {
+    background: #474044;
+    background-repeat: no-repeat;
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main.container {
+
+    background: #293132;
+    max-width: 350px;
+    max-height: 100vh;
+    padding: 2rem;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+/* CSS */
+.button-37 {
+
+  height: 40px;
+  width: 80px;
+  margin-top: -4px;
+  margin-left: 102.9px;
+  align-items: center;
+  background: #547AA5;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: "Arial";
+  font-size: 16px;
+  font-weight: 400;
+  font-style: bold;
+  outline: none;
+  outline: 0;
+  text-align: center;
+  transform: translateY(0);
+  transition: transform 150ms, box-shadow 150ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-37:hover {
+
+  box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+  transform: translateY(-2px);
+}
+
+.baile input{
+    text-align: center;
+    background-color: #212121;
+    color: #547AA5;
+    padding: 12px 30px 12px 30px;
+    margin: 22px 27.5px;
+    border: 2px solid #547AA5;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0,.1) 0 2px 4
+  }
+
+.baile h1{
+
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2px 65.5px;
+    font-size: 50px;
+    letter-spacing: -1.2px;
+    word-spacing: -2.2px;
+    background: fixed;
+    color: #50D8D7;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+.baile h1:hover{
+
+    color: #ffffff;
+    -webkit-border-radius: 36px;
+    -moz-border-radius: 36px;
+    border-radius: 36px;
+    text-decoration: none;
+    transform: translateY(-2px);
+}
+
+/* Li configs */
+
+:root {
+  --background-gradient: linear-gradient(30deg, #f39c12 30%, #f1c40f);
+  --gray: #547AA5;
+  --darkgray: #212121;
+}
+
+select {
+  /* Reset Select */
+  appearance: none;
+  outline: 0;
+  border: 0;
+  box-shadow: none;
+  /* Personalize */
+  flex: 1;
+  padding: 0 3.3em;
+  color: #547AA5;
+  background-color: var(--darkgray);
+  background-image: none;
+  cursor: pointer;
+}
+/* Remove IE arrow */
+select::-ms-expand {
+  display: none;
+}
+/* Custom Select wrapper */
+.select {
+  position: relative;
+  display: flex;
+  margin-top: 10px;
+  margin-left: 63px;
+  width: 10em;
+  height: 2.3em;
+  border-radius: .22em;
+  overflow: hidden;
+}
+/* Arrow */
+.select::after {
+  content: '\25BC';
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0.8em;
+  background-color: #547AA5;
+  transition: .25s all ease;
+  pointer-events: none;
+}
+/* Transition */
+.select:hover::after {
+  color: #ffffff;
+}
+
+/* Other styles*/
+.select body {
+  color: #fff;
+  background: var(--background-gradient);
+}
+.select h1 {
+  margin: 0 0 0.22em;
+}
+.select a {
+  font-weight: bold;
+  color: var(--gray);
+  text-decoration: none;
+  padding: .10em;
+  border-radius: .25em;
+  background: white;
+}
+
+.container p {
+  position: absolute;
+  justify-content: center;
+  margin: 100px 61px;
+  color: white;
+  box-shadow: rgba(0, 0, 0,.1) 0 2px 4
+}
