@@ -76,7 +76,7 @@ main.container {
 .baile h1{
 
     font-family: Arial, Helvetica, sans-serif;
-    padding: 2px 65.5px 20px;
+    padding: 2px 65.5px 10px;
     font-size: 50px;
     letter-spacing: -1.2px;
     word-spacing: -2.2px;
@@ -115,7 +115,7 @@ select {
   box-shadow: none;
   /* Personalize */
   flex: 1;
-  padding: 0 3.3em;
+  padding: 0 3.9em;
   color: #547AA5;
   background-color: var(--darkgray);
   background-image: none;
@@ -129,7 +129,8 @@ select::-ms-expand {
 .select {
   position: relative;
   display: flex;
-  margin-top: 10px;
+  margin-bottom: 30px;
+  margin-top: 20px;
   margin-left: 63px;
   width: 10em;
   height: 2.3em;
@@ -200,5 +201,5 @@ select::-ms-expand {
     font-style: normal;
     font-variant: normal;
     text-transform: none;
-    margin-bottom: -28px;
+    margin-bottom: -40px;
 }
