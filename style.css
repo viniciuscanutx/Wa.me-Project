@@ -33,13 +33,13 @@ main.container {
 
   height: 40px;
   width: 80px;
-  margin-top: -4px;
+  margin-top: 4px;
   margin-left: 102.9px;
   align-items: center;
   background: #547AA5;
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
-  color: #ffffff;
+  color: #0b213b;
   cursor: pointer;
   font-family: "Arial";
   font-size: 16px;
@@ -59,6 +59,7 @@ main.container {
 
   box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
   transform: translateY(-2px);
+  color: white;
 }
 
 .baile input{
@@ -75,12 +76,12 @@ main.container {
 .baile h1{
 
     font-family: Arial, Helvetica, sans-serif;
-    padding: 2px 65.5px;
+    padding: 2px 65.5px 20px;
     font-size: 50px;
     letter-spacing: -1.2px;
     word-spacing: -2.2px;
     background: fixed;
-    color: #50D8D7;
+    color: #547AA5;
     font-weight: 700;
     text-decoration: none;
     font-style: normal;
@@ -171,7 +172,33 @@ select::-ms-expand {
 .container p {
   position: absolute;
   justify-content: center;
-  margin: 100px 61px;
+  margin: 100px 68px;
   color: white;
   box-shadow: rgba(0, 0, 0,.1) 0 2px 4
+}
+
+.container #p21 {
+  position: absolute;
+  justify-content: center;
+  text-decoration: none;
+  margin: 170px 0px 0px -83.5px;
+  color: white;
+  box-shadow: rgba(0, 0, 0,.1) 0 2px 4
+}
+
+.baile h2{
+  font-family: Arial, Helvetica, sans-serif;
+    padding: 2px 0.5px 20px 2px;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    background: fixed;
+    color: white;
+    font-weight: 2;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    margin-bottom: -28px;
 }

@@ -1,5 +1,5 @@
 function abre1(){
     var valor1 = document.getElementById("recebe").value;
-    var valorddd =  document.getElementById("selectddd1").value;
-    window.open('http://wa.me/+55' + valorddd + valor1);
+    var strNum = valor1.replace(/[^0-9]/g, '')
+    window.open('http://wa.me/+55' + strNum);
 }
