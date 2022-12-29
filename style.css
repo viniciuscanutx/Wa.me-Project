@@ -1,4 +1,4 @@
-
+/* Zerando o CSS e Definindo Fontes*/
 *{
     box-sizing: border-box;
     padding: 0;
@@ -7,7 +7,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
+/* Determinando a cor do fundo na tag body e dando responsividade ao mesmo.*/
 body {
     background: #474044;
     background-repeat: no-repeat;
@@ -18,8 +18,8 @@ body {
     justify-content: center;
 }
 
+/* Tag Container que comporta os itens do site */
 main.container {
-
     background: #293132;
     max-width: 350px;
     max-height: 100vh;
@@ -28,7 +28,7 @@ main.container {
     border-radius: 8px;
 }
 
-/* CSS */
+/* Botão */
 .button-37 {
 
   height: 40px;
@@ -39,7 +39,7 @@ main.container {
   background: #547AA5;
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
-  color: #0b213b;
+  color: #ffffff;
   cursor: pointer;
   font-family: "Arial";
   font-size: 16px;
@@ -55,13 +55,15 @@ main.container {
   touch-action: manipulation;
 }
 
+/* Animação do Botão */
 .button-37:hover {
 
   box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
   transform: translateY(-2px);
-  color: white;
+  color: rgb(16, 226, 191);
 }
 
+/* Configurações e estilização do Input */
 .baile input{
     text-align: center;
     background-color: #212121;
@@ -73,8 +75,8 @@ main.container {
     box-shadow: rgba(0, 0, 0,.1) 0 2px 4
   }
 
+/* Estilização do H1 */
 .baile h1{
-
     font-family: Arial, Helvetica, sans-serif;
     padding: 2px 65.5px 10px;
     font-size: 50px;
@@ -89,8 +91,8 @@ main.container {
     text-transform: none;
 }
 
+/* Animação ao passar o mouse em cima do h1*/
 .baile h1:hover{
-
     color: #ffffff;
     -webkit-border-radius: 36px;
     -moz-border-radius: 36px;
@@ -100,7 +102,6 @@ main.container {
 }
 
 /* Li configs */
-
 :root {
   --background-gradient: linear-gradient(30deg, #f39c12 30%, #f1c40f);
   --gray: #547AA5;
@@ -170,19 +171,12 @@ select::-ms-expand {
   background: white;
 }
 
+/* placeholder do input - troca de cor*/
 #recebe::placeholder {
   color: #547AA5;
 }
 
-.container p {
-  cursor: default;
-  position: absolute;
-  justify-content: center;
-  margin: 100px 68px;
-  color: white;
-  box-shadow: rgba(0, 0, 0,.1) 0 2px 4
-}
-
+/* Dev by - estilização */
 .container #p21 {
   position: absolute;
   cursor: pointer;
@@ -193,6 +187,7 @@ select::-ms-expand {
   box-shadow: rgba(0, 0, 0,.1) 0 2px 4
 }
 
+/* Digite seu ddd - texto - estilização*/
 .baile h2{
   font-family: Arial, Helvetica, sans-serif;
     padding: 2px 0.5px 20px 2px;

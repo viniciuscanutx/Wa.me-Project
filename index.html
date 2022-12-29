@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+ <!-- Import do css, script do javascript, tags de montagem padrão html. -->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,10 +9,14 @@
     <link rel="stylesheet" href="style.css">
     <title>Wa.me</title>
 </head>
+<!-- Body com main e divs que fazem a UI da pagina. -->
 <body>
+    <!-- Classe main que comporta o container da pagina -->
     <main class= 'container'>
+        <!-- Div que comporta o h1 que é o Wa.me da pagina -->
         <div class ='baile'>
         <h1>Wa.me</h1>
+        <!-- Class Select / Classe que você coloca os códigos dos países -->
         <div class="select">
             <select id = "selectddd1">
               <option value="+55">+55</option>
@@ -20,19 +25,16 @@
               <option value="+200">+200</option>
             </select>
           </div>
+          <!-- Personalização - texto que fica em cima do input -->
           <h2 id='O92'>Digite o número com DDD</h2>
-       <!-- <select id="selectddd1">
-            <option>11</option>
-            <option>15</option>
-            <option>19</option>
-            <option>45</option>
-        </select> -->
+          <!-- Input que recebe o número com a classe para ser usado no JS -->
         <input type="text" id="recebe" placeholder="Digite o número">
+        <!-- Botão que ativa a função que abre o link para chamar no whatsapp. -->
         <button class="button-37" onclick="abre1();" role="button">Call Me!</button>
-        <p>It is a student project.</p>
+        <!-- Link do github do criador ou quem queira usar. -->
         <a href='http://www.google.com.br' target="_blank" id='p21'>Dev by 1532.</a>
+        <!-- Fechamento das tags abaixo. -->
     </div>
     </main>
 </body>
-</footer>
 </html>
