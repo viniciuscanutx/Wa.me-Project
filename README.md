@@ -13,5 +13,5 @@ O projeto foi feito usando JavaScript, HTML e CSS.
 ## Fotos do Projeto 
 
 <div align="center">
-<img src='https://user-images.githubusercontent.com/84680268/210235984-4a8be862-11a4-452f-baa6-82a180f5b189.png' width=500px />
+<img src='https://user-images.githubusercontent.com/84680268/210235984-4a8be862-11a4-452f-baa6-82a180f5b189.png' width=800px />
 
