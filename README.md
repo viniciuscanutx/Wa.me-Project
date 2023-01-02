@@ -12,5 +12,6 @@ O projeto foi feito usando JavaScript, HTML e CSS.
 
 ## Fotos do Projeto 
 
-![Pagina Do Projeto](../assets/screenshots/1.png)
+<div align="center">
+<img src='https://prnt.sc/Qjm6EMUtErtX' width=200px />
 
