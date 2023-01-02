@@ -1,10 +1,12 @@
 /* Zerando o CSS e Definindo Fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     border: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif, Dancing Script;
 }
 
 /* Determinando a cor do fundo na tag body e dando responsividade ao mesmo.*/
@@ -31,6 +33,7 @@ main.container {
 /* Botão */
 .button-37 {
 
+  font-family: Arial;
   height: 40px;
   width: 80px;
   margin-top: 4px;
@@ -65,6 +68,7 @@ main.container {
 
 /* Configurações e estilização do Input */
 .baile input{
+    font-family: Arial;
     text-align: center;
     background-color: #212121;
     color: #547AA5;
@@ -77,8 +81,8 @@ main.container {
 
 /* Estilização do H1 */
 .baile h1{
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 2px 65.5px 10px;
+    font-family: Dancing Script;
+    padding: 2px 79.5px 10px;
     font-size: 50px;
     letter-spacing: -1.2px;
     word-spacing: -2.2px;
@@ -93,6 +97,7 @@ main.container {
 
 /* Animação ao passar o mouse em cima do h1*/
 .baile h1:hover{
+    font-family: Dancing Script;
     color: #ffffff;
     -webkit-border-radius: 36px;
     -moz-border-radius: 36px;
@@ -110,6 +115,7 @@ main.container {
 
 select {
   /* Reset Select */
+  font-family: Arial;
   appearance: none;
   outline: 0;
   border: 0;
@@ -124,10 +130,12 @@ select {
 }
 /* Remove IE arrow */
 select::-ms-expand {
+  font-family: Arial;
   display: none;
 }
 /* Custom Select wrapper */
 .select {
+  font-family: Arial;
   position: relative;
   display: flex;
   margin-bottom: 30px;
@@ -140,6 +148,7 @@ select::-ms-expand {
 }
 /* Arrow */
 .select::after {
+  font-family: Arial;
   content: '\25BC';
   position: absolute;
   top: 0;
@@ -151,18 +160,22 @@ select::-ms-expand {
 }
 /* Transition */
 .select:hover::after {
+  font-family: Arial;
   color: #ffffff;
 }
 
 /* Other styles*/
 .select body {
+  font-family: Arial;
   color: #fff;
   background: var(--background-gradient);
 }
 .select h1 {
+  font-family: Arial;
   margin: 0 0 0.22em;
 }
 .select a {
+  font-family: Arial;
   font-weight: bold;
   color: var(--gray);
   text-decoration: none;
@@ -178,6 +191,7 @@ select::-ms-expand {
 
 /* Dev by - estilização */
 .container #p21 {
+  font-family: Arial;
   position: absolute;
   cursor: pointer;
   justify-content: center;
@@ -189,7 +203,7 @@ select::-ms-expand {
 
 /* Digite seu ddd - texto - estilização*/
 .baile h2{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial;
     padding: 2px 0.5px 20px 2px;
     font-size: 15px;
     text-align: center;
