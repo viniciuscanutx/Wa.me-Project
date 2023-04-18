@@ -7,8 +7,7 @@ Projeto desenvolvido para chamar pessoas no whatsapp sem usar contato.
 O projeto foi feito usando JavaScript, HTML e CSS.
 
 
-É um projeto de utilização básica e simples.
-
+É um projeto de utilização básica.
 
 ## Fotos do Projeto 
 
